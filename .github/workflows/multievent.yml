@@ -1,0 +1,15 @@
+on:
+  push:
+    branches:
+      - main
+      - dev
+  pull_request:
+    branches:
+      - main
+jobs:
+  hello_world:
+    run-on: ubuntu-latest
+    steps: 
+      - name: "echo Basic info"
+        run: |
+        
