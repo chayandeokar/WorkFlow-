@@ -10,4 +10,5 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Info
-        run: echo " This is a push event"
+        run: |
+        echo " This is a push event"
